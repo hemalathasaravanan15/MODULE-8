@@ -1,30 +1,35 @@
-# 🔍 Hackerrank:Python Program to Check if a String Ends with a Numeric Digit
+# 🔍 Hackerrank:Python Program to print concatenation and repetition
 
-This Python program checks whether the last character of a given input string is a **numeric digit (0–9)**.
-
----
 
 ## 🎯 Aim
-
-To write a Python program that checks if a given string ends with a number using Python's built-in string methods.
+Write a python program to print three lines where:
+The first line contains the concatenation of the two strings.
+The second line contains the repetition of the first string 3 times
 
 ---
 
 ## 🧠 Algorithm
 
-1. **Start the program.**
-2. **Input** a string from the user.
-3. **Access** the last character using indexing (`string[-1]`).
-4. **Check** if the last character is a digit using the `.isdigit()` method.
-5. **If true**, print that the string ends with a number.
-6. **Else**, print that the string does not end with a number.
-7. **End the program.**
+1. Start and take first string input a.
+2. Take second string input b.
+3. Concatenate a and b, then print the result.
+4. Repeat string a three times using * operator.
+5. Print the repeated string.
 
 ---
 
 ## 💻  Program
-Add Code here
+~~~
+a=str(input())
+b=str(input())
+print(a+b)
+print(a*3)
+~~~
 
 ## Output
+<img width="464" height="189" alt="image" src="https://github.com/user-attachments/assets/ca03509f-38cb-42f7-9516-ef7a3e53e435" />
+
+
 
 ## Result
+Thus the required output is got and verified.
