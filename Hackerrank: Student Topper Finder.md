@@ -1,35 +1,41 @@
-# # 🔢 Hackerrank:# 🏆 Student Topper Finder
-
-This Python program helps determine the **top-performing student** based on the total marks across five subjects. It uses a dictionary to store each student’s marks and identifies the topper using simple calculations and built-in functions.
-
----
+# # 🔢 Hackerrank:# 🏆 Elements from list
 
 ## 🎯 Aim
 
-To maintain a dictionary of students with their marks in five subjects, calculate their **total marks**, store them in a new dictionary, and identify the **student with the highest total (topper)**.
+To display elements from a list, present at odd index positions
 
 ---
 
 ## 🧠 Algorithm
 
-1. **Start** the program.
-2. Create a dictionary `student_marks`:
-   - Keys → Student names.
-   - Values → List of marks in five subjects.
-3. Initialize an empty dictionary `total_marks`.
-4. Loop through `student_marks`:
-   - Calculate the total marks using `sum()`.
-   - Store the result in `total_marks`.
-5. Use `max()` on `total_marks` to find the student with the highest total.
-6. Print:
-   - The `total_marks` dictionary.
-   - The **topper's name and score**.
+1. Start the program.
+2. Input an integer n → number of strings to read.
+3. Initialize an empty list l.
+4. Repeat n times:
+5. Read a string lst.
+6. Append lst to the list l.
+7. Loop through the indices of list l:
+8. If the index i is odd (i % 2 != 0), then:
+9. Print the string at position l[i] without newline (use end='').
+10. End the program.
 
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+~~~
+n=int(input())
+l=[]
+for i in range(n):
+    lst=input()
+    l.append(lst)
+for i in range(len(l)):
+    if i%2!=0:
+        print(l[i],end='')
+~~~
 
 ## OUTPUT
+<img width="417" height="328" alt="image" src="https://github.com/user-attachments/assets/69062ed7-7210-47e5-96f7-c2ce7fce96f3" />
+
 
 ## RESULT
+Thus the output is verified.
